@@ -1,0 +1,19 @@
+.{
+    .name = "sse42_strcmp",
+    .version = "0.0.0",
+
+    //.minimum_zig_version = "0.11.0",
+    .dependencies = .{
+        .intrinzic = .{
+            .url = "https://github.com/koenigskraut/intrinzic/archive/0b8fb8922dbbe0a2ccbdf92f934ce9a91c0b0ec5.tar.gz",
+            .hash = "1220e176cb50c8519ce5c9f61697a27f30c9898e44a2fd988ff861a2a21bd4d5960f",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
